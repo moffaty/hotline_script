@@ -1,0 +1,33 @@
+{
+    "window": {
+        "width": 555,
+        "height": 400,
+        "title": "Click Automation Tool"
+    },
+    "click_settings": {
+        "click_delay": 0.01,
+        "cycle_interval": 10.0
+    },
+    "locations": [
+        "location1",
+        "location2",
+        "location3",
+        "location4",
+        "location5",
+        "location6"
+    ],
+    "hotkeys": {
+        "start_recording": "ctrl+shift",
+        "stop_script": "ctrl+x",
+        "play_location_1": "ctrl+1",
+        "play_location_2": "ctrl+2",
+        "play_location_3": "ctrl+3",
+        "play_location_4": "ctrl+4",
+        "play_new_location": "ctrl+n",
+        "exit_application": "esc+e"
+    },
+    "paths": {
+        "locations_folder": "locations",
+        "new_location_file": "location_new.json"
+    }
+}
